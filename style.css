@@ -1,0 +1,163 @@
+.head{
+    color: rgb(139, 51, 234);
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: ;
+    border: 2px solid aquamarine;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-left: 45%;
+}
+.body{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30%;
+    width: 45%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(55, 180, 242);
+    font: bold;
+    font-weight: bold;
+    padding: 15px;
+    font-size: large;
+    
+}
+#butt{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0cm;
+}
+.body2{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+    margin-left: 300px;
+    width: 60%;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:  Helvetica;
+        color: black;
+    
+        font-size: larger;
+        font-weight: 100;
+}
+.biglist{
+    font-size: larger;
+    font-weight: 100;
+    display: inline;
+    padding: 10px;
+}
+
+.butt2{
+
+    
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    border: 0cm;
+    padding-top: 0px;
+    
+}
+.buttname{
+    background-color: green;
+    font-family: Helvetica;
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    font-weight: 300;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.link{
+    font-family: Helvetica;
+    
+    height: 70px;
+    width : 120px;
+    margin: 50px;
+    color: rgb(42, 246, 219);
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: x-large;
+    
+
+}
+.link:hover{
+    font-size: xx-large;
+}
+.author{
+    position: relative; left: 78%; top: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 150px;
+    border: 0px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+
+
+}
+.author:hover{
+    height: 40px;
+    width: 230px;
+    font-size: larger;
+}
+input{
+    display: inline;
+
+}
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Helvetica;
+    background-color: blueviolet;
+    border-radius: 9px;
+    color: white;
+    height: 80px;
+    width: 420px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+.title:hover{
+    font-size: 52px;
+    height: 90px;
+    width: 430px;
+}
+.subt{
+    font-size: 37px;
+    font-weight: bold;
+    font-family: Helvetica;
+    background-color: rgb(4, 243, 251);
+    border-radius: 5px;
+    color: white;
+    height: 55px;
+    width: 210px;
+    text-align: center;
+    position: relative;
+    left: 2%; 
+    text-shadow: 2px 2px gray;
+    box-shadow: 3px 3px 3px 3px gray;
+
+}
+.subt:hover{
+    box-shadow: 3px 3px 3px 3px gray;
+    position: relative;
+    left: -1%;
+    top: 1%;
+}
+input:hover{
+    background-color: rgb(198, 190, 190);
+    border-radius: 5px;
+}
