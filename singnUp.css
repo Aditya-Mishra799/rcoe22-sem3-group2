@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+#slider{
+    width: 20%;
+    height: 100%;
+    border: 1px dashed gray;
+    position: absolute;
+    left: -400px;
+}
+#slider a{
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+    
+}
+#slider  ul li{
+    padding-top: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px dotted rgb(227, 222, 222);
+    text-align: center;
+    list-style: none;
+}
+#slider li:hover{
+    background-color: rgb(223, 228, 228);
+}
+#slider .sliderbutton{
+    position: absolute;
+    top: 30px;
+    left: 430px;
+    
+}
+.sliderbutton span{
+    width: 40px;
+    height: 6px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: gray;
+    display: block;
+}
+#slider.active{
+    left: 0px;
+    transition: 0.5s;
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+    border-bottom: 2px dotted rgb(227, 222, 222);
+     position: relative;
+     left: 15px;
+    top: 15px;
+    margin-bottom: 15px;
+    display: inline;
+}
+.slogan{
+    color: yellow;
+    display: inline;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    background-color: green;
+    border-radius: 40%;
+}
+
+nav{
+    background-color: rgb(83, 243, 83);
+   position:static;
+}
+form{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    align-items: center;
+    flex-direction: column;
+   
+}
+form input{
+    
+    width: 600px;
+    height: 50px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+form input:hover{
+    background-color: rgb(223, 228, 228);
+}
+form label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+form button{
+    background-color: rgb(23, 220, 23);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    font-family:Arial, Helvetica, sans-serif;
+     font-size: 28px;
+    border: 0;
+    margin-bottom: 50px;
+}
+/*Create an account css*/
+.title{
+    font-size: 35px;
+    font-weight: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 28px;  
+   
+}
+
+#error{
+color: red;
+font-size: 15px;
+margin-bottom: 7px;
+}
+
+/*sucees message*/
+#sucess{
+    color: white;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    background-color: rgb(8, 201, 43);
+    box-sizing: border-box;
+    padding: 10px;
+    display: none;
+    text-align: center;
+    width: 400px;
+     }
+
+
+     .loindiv{
+        display: flex;
+        flex-direction: row;
+     }
+    .login-img{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        position: relative;
+        top: 10px;
+     }
+     .login{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 30;
+        color: black;
+     }

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       </style>
+        <link rel="stylesheet" href="singnUp.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!--Navbar-->
+    <nav class="nav_bar">
+      <img src="logo.jpeg" alt="logo" class="logo">
+    </nav>
+    <!--Slider menu-->
+    <div id="slider">
+        <div class="sliderbutton" onclick="show()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            
+            <ul>
+           <li> <img src="logo.jpeg" alt="logo" class="logo">
+            <h3 class="slogan">Books for you</h3></li>
+            
+               <li><a href="profile.html" aria-label="profile">Profile</a></li>
+               <li><a href="search.html" aria-label="getbooks">Get Books</a></li>
+               <li><a href="idex.html" aria-label="signout">Sign Out</a></li>
+               <li><a href="about.html" aria-label="about-us">About Us</a></li>
+               <li><a href="contact.html" aria-label="">Contact Us</a></li>
+            </ul>
+            
+        </div>
+    </div>
+<!--submission form-->
+    <form>
+        <p class="title">Create an account:</p>
+        <p id="sucess">Your account created sucessfully.Now you can login through your password and email id.</p>
+        <p id="error"></p>
+        
+        <input type="text" placeholder="Full Name" id="Name" required>
+       
+        <input type="text" placeholder="User-id" id="user-name" required>
+        
+        <input type="password" placeholder="Password" id="pass" required>
+        
+        <input type="password" placeholder="Confirm Password" id="confirm-pass" required>
+       
+        <input type="email" placeholder="E-mail" id="email" required>
+        
+         <button type="reset" id="submit-button">Submit</button>
+
+        <div class="logindiv">
+            <a href="idex.html" class="login">Login</a>
+                <script src="index.js"></script>
+                <img src="login.png" alt="login icon" class="login-img">
+      </div>
+    </form>
+
+   <!--Firebase script-->
+    <script type="module">
+        
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js";
+        
+        const firebaseConfig = {
+          apiKey: "AIzaSyBt26riz0ky5Ip7TgfIKyQoZQAAtFdo5FI",
+          authDomain: "books-for-you-66d05.firebaseapp.com",
+          projectId: "books-for-you-66d05",
+          storageBucket: "books-for-you-66d05.appspot.com",
+          messagingSenderId: "679541636431",
+          appId: "1:679541636431:web:f23bf7bde3c529f6e5193a"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        import{getDatabase,ref,set,child,get}
+        from "https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js";
+        const db = getDatabase;
+      </script>
+
+      <script src="index.js"></script>
+    
+</body>
+</html>
